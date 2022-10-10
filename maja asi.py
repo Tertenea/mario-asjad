@@ -67,4 +67,4 @@ for i in range (6):
     
     
     
-k.exitonclick()
+turtle.exitonclick()
