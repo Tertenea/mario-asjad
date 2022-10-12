@@ -6,4 +6,4 @@ print("  @..@\n (----)\n( \__/ )\n^^ \"\" ^^")
 
 x=int(input("Sisesta ruudu külje pikkus: "))
 y=x*x
-print("Vastus: ruudu pindala on " + str(y) + "cm^2")
+print("Vastus: ruudu pindala on " ,y,"cm^2")
