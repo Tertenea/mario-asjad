@@ -24,6 +24,26 @@ else:
     vastus = "n/a"
 print(f"{a}{tehe}{b}={vastus}")
 
-
 sp = "5.6.2000"
 print("Juubel") if 2022-int(sp.split(".")[2])%5==0 else print("Ei ole juubel")
+
+hind = float(input("Sisesta toote hind: "))
+if hind>10:
+    print("Soodustus 20%")
+else:
+    print("Soodustus 10%")
+
+sugu = input("Sisesta oma sugu (mees või naine): ")
+if sugu=="mees":
+    vanus = int(input("Sisesta oma vanus: "))
+    if 16<=vanus<=18:
+        print("sobid meeskonda")
+    else:
+        print("mine ära")
+else:
+    print("mine ära")
+
+for i in range (5):
+    for j in range (5):
+        print("* ",end="")
+    print("\n")
