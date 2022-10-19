@@ -1,6 +1,7 @@
 #P.Kiviorg
 #17.10.2022
 #Harjutus 4
+import random
 
 a,b = 10,20
 if a==b:
@@ -42,8 +43,50 @@ if sugu=="mees":
         print("mine ära")
 else:
     print("mine ära")
+print()
+for i in range (5):
+    print("* "*5)
+
+print()
+x=1
+for i in range (5):
+    print("* "*x)
+    x+=1
+    
+print()
+y=5
+for i in range (5):
+    print("* "*y)
+    y-=1
 
 for i in range (5):
-    for j in range (5):
-        print("* ",end="")
-    print("\n")
+    print(random.randint(1,9))
+
+z=1
+for i in range (100):
+    if z%2==0:
+        print(f"{z} on paaris arv")
+    else:
+        print(f"{z} on paaritu arv")
+    z+=1
+        
+x=1
+for i in range (10):
+    print(f"5 x {x} + {5*x}")
+    x+=1
+    
+x=1
+for i in range (100):
+    if x%5==0:
+        print(x)
+    x+=1
+
+x=random.randint(0,9)
+for i in range (3):
+    arva=int(input("Arva number 0-9: "))
+    if arva==x:
+        print("Tubli")
+    else:
+        print("proovi uuesti loll luud")
+
+
