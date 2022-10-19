@@ -10,11 +10,11 @@ if a==b:
 else:
     print(f"{a} ja {b} ei tee kokku ruutu")
 
+#kalkulaator
 a = int(input("Number 1: "))
 b = int(input("Number 2: "))
 tehe = input("Vali tehe (+ - * /): ")
 
-#kalkulaator
 if tehe=="+":
     vastus = a + b
 elif tehe=="-":
