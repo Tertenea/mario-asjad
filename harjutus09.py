@@ -4,12 +4,9 @@
 import datetime
 import locale
 
-isik = int(input("Sisesta oma isikukood: "))
-x = isik.split()
-
-
-
-
+isik = input("Sisesta oma isikukood: ")
+x = (datetime.date(int("20"+isik[1:3]), int(isik[3:5]), int(isik[5:7])))
+print(x)
 
 
 aeg = datetime.datetime.now()
