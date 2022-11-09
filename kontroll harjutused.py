@@ -1,3 +1,17 @@
+import random
+#jänese mure 2
+arv = int(input("Sisesta ringide arv: "))
+porgand = 0
+for i in range(arv+1):
+    if i%2 == 0:
+        porgand += i
+print(f"Jänesepoeg saab {arv} ringi jooksmise eest {porgand} porgandit")
+
+#täringud
+arv = int(input("Sisesta täringute arv: "))
+for i in range(arv):
+    print(random.randint(1,6))
+
 #murelikud lapsevanemad
 ringid = int(input("Sisesta ringide arv: "))
 ring = 0
@@ -7,8 +21,6 @@ while ring<ringid:
     if ring%2==0:
         porgand+=ring
 print(porgand)
-    
-
 
 #äratus
 arka = int(input("Sisestage mitu korda äratada: "))
